@@ -20,5 +20,10 @@ namespace WebApplication1
                 defaults: new { id = RouteParameter.Optional }
             );
         }
+
+        public static void Error()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
